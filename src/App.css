@@ -1,0 +1,37 @@
+/* Alignments */
+body {
+  text-align: center;
+}
+.app, .input-wrapper, .button-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.meal-details-form {
+  flex-flow: column;
+  align-content: space-between;
+  margin: auto;
+}
+.card, .content, .input-wrapper {
+  padding: 5px;
+  margin: 3px;
+}
+.input-wrapper, .spread {
+  justify-content: space-between;
+}
+.button-wrapper {
+  justify-content: center;
+}
+.justify {
+  text-align: justify;
+}
+.left-side {
+  flex: 2;
+}
+.right-side {
+  flex: 1;
+}
+/* Decoration */
+.card, .content {
+  background-color: burlywood;
+  border: 1px solid black;
+}
